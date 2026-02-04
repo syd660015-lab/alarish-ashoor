@@ -2,6 +2,7 @@ import React, { useState, useCallback } from 'react';
 import { INITIAL_DATA, INITIAL_CLASS_COUNTS, INITIAL_STUDENT_COUNTS } from './constants';
 import { SCHOOLS } from './schools';
 import { TeacherDataEntry, ClassCounts, StudentCounts } from './types';
+// تأكد من أن الأسماء أدناه تطابق أسماء الملفات في مجلد components تماماً
 import { DataInputRow } from './components/dataInputRow';
 import { SummaryCards } from './components/SummaryCards';
 import { DashboardCharts } from './components/DashboardCharts';
@@ -10,6 +11,9 @@ import { ClassCountSection } from './components/ClassCountSection';
 import { SubjectPlan } from './components/SubjectPlan';
 import { SchoolSelect, getSchoolTheme } from './components/SchoolSelect';
 import { GraduationCap, Printer, School, Phone, FileSpreadsheet, Download, FileText, Loader2 } from 'lucide-react';
+
+// إذا كان الخطأ لا يزال يظهر بشأن Layout، أضف السطر التالي:
+// import { Layout } from './components/layout';
 
 const App: React.FC = () => {
   const [data, setData] = useState<TeacherDataEntry[]>(INITIAL_DATA);
