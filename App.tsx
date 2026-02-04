@@ -2,7 +2,7 @@ import React, { useState, useCallback } from 'react';
 import { INITIAL_DATA, INITIAL_CLASS_COUNTS, INITIAL_STUDENT_COUNTS } from './constants';
 import { SCHOOLS } from './schools';
 import { TeacherDataEntry, ClassCounts, StudentCounts } from './types';
-import { DataInputRow } from './components/DataInputRow';
+import { DataInputRow } from './components/dataInputRow';
 import { SummaryCards } from './components/SummaryCards';
 import { DashboardCharts } from './components/DashboardCharts';
 import { AiAdvisor } from './components/AiAdvisor';
