@@ -11,6 +11,7 @@ import { ClassCountSection } from './components/ClassCountSection';
 import { SubjectPlan } from './components/SubjectPlan';
 import { SchoolSelect, getSchoolTheme } from './components/SchoolSelect';
 import { GraduationCap, Printer, School, Phone, FileSpreadsheet, Download, FileText, Loader2 } from 'lucide-react';
+import { Layout } from './components/layout';
 
 // إذا كان الخطأ لا يزال يظهر بشأن Layout، أضف السطر التالي:
 // import { Layout } from './components/layout';
