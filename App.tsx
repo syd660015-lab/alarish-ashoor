@@ -11,7 +11,6 @@ import { SubjectPlan } from './components/SubjectPlan';
 import { SchoolSelect, getSchoolTheme } from './components/SchoolSelect';
 import { GraduationCap, Printer, School, Phone, FileSpreadsheet, Download, FileText, Loader2 } from 'lucide-react';
 import { Layout } from './components/layout';
- import { Layout } from './components/layout';
 
 const App: React.FC = () => {
   const [data, setData] = useState<TeacherDataEntry[]>(INITIAL_DATA);
